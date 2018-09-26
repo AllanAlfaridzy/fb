@@ -155,7 +155,7 @@ def saring_id_group0():
 	return next
 def idgroup():
 	if log != 1:
-		tampil('\rh[*]Login dulu GOBLOG...')
+		tampil('\rm[*]Login dulu GOBLOG...')
 		login()
 		if log == 0:
 			keluar()
@@ -175,7 +175,7 @@ def idgroup():
 		return menu()
 def idteman():
 	if log != 1:
-		tampil('\rh[*]Login dulu GOBLOG...')
+		tampil('\rm[*]Login dulu GOBLOG...')
 		login()
 		if log == 0:
 			keluar()
@@ -337,12 +337,12 @@ def menu():
                  /  \  \           '
                  \_  \_ \_    \rk*\rhClarishaOcta
 \rc#################################
-#             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
-# \rhBY\rp                                             Clarisha Octa \rk#
+#             \rb*MULTY CROOT FACEBOOK*\rc                 #
+# \rhBY\rp                                             Clarisha Octa \rc#
 # \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk#
-# \rhGitHub\rp                      https://github.com/Clarisha/mbf.git \rk#
+# \rhGitHub\rp                      https://github.com/Clarisha/fB.git \rk#
 #       \rmJANGAN LUPA KONTOL KONTOLIN FB NYA          \rc#################################''')
-	tampil('''\rk%s\n\rc1 \rhcroot id dari group\n\rc2 \rbcroot id dari daftar teman\n\rc3 \rmMUNCRAAT\n\rc%s'''%('#'*20,'#'*20))
+	tampil('''\rc%s\n\rc1 \rhcroot id dari group\n\rc2 \rbcroot id dari daftar teman\n\rc3 \rmMUNCRAAT\n\rc%s'''%('#'*20,'#'*20))
 	i = inputM('[?]PILIH',[1,2,3])
 	if i == 1:
 		lanjutG()
