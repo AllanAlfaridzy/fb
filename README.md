@@ -1,6 +1,6 @@
 # brute login password
 ------------------
-# Tutorial Web
+# web
 
 www.anonymous-girl.onion
 
