@@ -52,7 +52,7 @@ $banner = $red." _____ ____    ____  _____
 |  _| | |_) | | |_) |  _|
 |_|   |____/  |____/|_|
 ".$blue."Facebook Bruteforce
-".$cyan."Author: Bagaz Mukti\n\n".$nc;
+".$cyan."Author: Clarisha Octa\n\n".$nc;
 $file = $_SERVER[argv][1];
 echo "$white Masukkan ID Target:$yellow ";
 $user = trim(fgets(STDIN));
