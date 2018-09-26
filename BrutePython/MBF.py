@@ -335,12 +335,12 @@ def menu():
            {\rmX\rh}v{\rmX\rh}|\rcPRX\rh|==========.
              [']  /'|'\           \\
                  /  \  \           '
-                 \_  \_ \_    \rk*\rhDragonFly ZomBie
+                 \_  \_ \_    \rk*\rhClarisha Octa
 \rk###########################################################
 #             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
-# \rhBY\rp                                             PIRMANSX \rk#
+# \rhBY\rp                                             Clarisha Octa \rk#
 # \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk#
-# \rhGitHub\rp                      https://github.com/pirmansx \rk#
+# \rhGitHub\rp                      https://github.com/Clarisha/brute.git \rk#
 #       \rmDo Not Use This Tool For IllegaL Purpose          \rk#
 ###########################################################''')
 	tampil('''\rk%s\n\rc1 \rhAmbil id dari group\n\rc2 \rhAmbil id dari daftar teman\n\rc3 \rmKELUAR\n\rk%s'''%('#'*20,'#'*20))
