@@ -336,12 +336,12 @@ def menu():
              [']  /'|'\           \\
                  /  \  \           '
                  \_  \_ \_    \rk*\rhClarishaOcta
-\rc☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠
+\rc#################################
 #             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
 # \rhBY\rp                                             Clarisha Octa \rk#
 # \rhGroup FB\rp  https://m.facebook.com/groups/164201767529837 \rk#
 # \rhGitHub\rp                      https://github.com/Clarisha/mbf.git \rk#
-#       \rmJANGAN LUPA KONTOL KONTOLIN FB NYA          \rc☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠#☠''')
+#       \rmJANGAN LUPA KONTOL KONTOLIN FB NYA          \rc#################################''')
 	tampil('''\rk%s\n\rc1 \rhcroot id dari group\n\rc2 \rbcroot id dari daftar teman\n\rc3 \rmMUNCRAAT\n\rc%s'''%('#'*20,'#'*20))
 	i = inputM('[?]PILIH',[1,2,3])
 	if i == 1:
